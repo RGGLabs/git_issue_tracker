@@ -5,7 +5,7 @@ name: github-project-issue-to-sheets
 on:
   workflow_dispatch:
   issues:
-    types: [opened, deleted, transferred, closed, reopened, assigned, unassigned, labeled, unlabeled]
+    types: [opened, closed, reopened, assigned, unassigned, labeled]
 
 jobs:
     github-project-issue-to-sheets:
