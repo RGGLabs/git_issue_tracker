@@ -17,5 +17,5 @@ jobs:
           uses: ViRGiL175/github-project-issue-to-sheets@dev
           with:
             google-api-service-account-credentials: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_DATA }}
-            document-id: '1b0UuGS_HXTGv-BE9dcB_58gZvo5fttyKgle0s4DmRNI'
-            sheet-name: 'GitHub Issues'
+            document-id: '1miwkxvFc1mJ3AWjkuv1IOaPq60oGJYB2G-s_ks14wiI'
+            sheet-name: 'Github Issues'
